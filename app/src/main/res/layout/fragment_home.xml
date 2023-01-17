@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26C6DA"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#C0AD5D"
+                android:fontFamily="monospace"
+                android:text="This is My Cute                  😊Hajira Baby page😘"
+                android:textAlignment="center"
+                android:textColor="#CC3030"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="408dp"
+                android:layout_height="561dp"
+                android:src="@drawable/hajj"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="408dp"
+                android:layout_height="561dp"
+                android:src="@drawable/hajg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="408dp"
+                android:layout_height="347dp"
+                android:src="@drawable/haji"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="408dp"
+                android:layout_height="561dp"
+                android:src="@drawable/hajf"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="408dp"
+                android:layout_height="561dp"
+                android:src="@drawable/haje"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="408dp"
+                android:layout_height="561dp"
+                android:src="@drawable/hajb"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="408dp"
+                android:layout_height="561dp"
+                android:src="@drawable/hajc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="408dp"
+                android:layout_height="561dp"
+                android:layout_marginBottom="150dp"
+                android:src="@drawable/hajd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!--            <Button-->
+            <!--                android:id="@+id/dummy_button2"-->
+            <!--                style="?android:attr/buttonBarButtonStyle"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:background="#BD9595"-->
+            <!--                android:fontFamily="monospace"-->
+            <!--                android:onClick="hajrapage"-->
+            <!--                android:pointerIcon="crosshair"-->
+            <!--                android:text="👀Go_On_Hajira🧐     🤓Videos_Page👻"-->
+            <!--                android:textAlignment="center"-->
+            <!--                android:textAllCaps="true"-->
+            <!--                android:textColor="#AAFF00"-->
+            <!--                android:textSize="24sp"-->
+            <!--                android:textStyle="bold|italic"-->
+            <!--                app:cornerRadius="50dp"-->
+            <!--                app:icon="@drawable/hajf"-->
+            <!--                app:iconRaduis="50dp"-->
+            <!--                app:iconSize="50dp"-->
+            <!--                app:iconTint="#FFFFFF"-->
+            <!--                app:iconTintMode="multiply" />-->
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
